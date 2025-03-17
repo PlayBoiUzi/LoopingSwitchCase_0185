@@ -8,13 +8,13 @@ int main()
     int n;
     int perulanganWhile = 0;
     int perulaganDo = 0;
-    
+
     // Perulanagn Dengan for
 
     cout << "Perulangan for pencacah naik" << endl;
     for (n = 0; n < 5; n++)
     {
-    cout << "Nilai n = " << n << "Selamat Datang" << endl;
+        cout << "Nilai n = " << n << "Selamat Datang" << endl;
     }
     cout << "Nilai n terakhir = " << n << endl;
     cout << endl;
@@ -23,16 +23,16 @@ int main()
     // Perulangan dengan for
     for (n = 5; n > 0; n--)
     {
-      cout << "Nilai n =" << n << "Selamat Datang" << endl;
+        cout << "Nilai n =" << n << "Selamat Datang" << endl;
     }
     cout << "Nilai n terakhir + " << n;
     cout << endl;
 
     cout << "Perulangan while" << endl;
 
-    srand (time(0));
+    srand(time(0));
 
-    n=rand () % 10;
+    n = rand() % 10;
 
     cout << "Nilai awal n =" << n << endl;
 
@@ -44,18 +44,20 @@ int main()
     }
     cout << "Jumlah Perulangan =" << perulanganWhile << endl;
     cout << "Nilai n terakhir =" << n << endl;
-    
+
     cout << "Perulangan do while" << endl;
 
+    srand(time(0));
 
+    n = rand() % 10;
 
+    cout << "Nilai awal n = " << n << endl;
 
+    do
+    {
+        n = rand() % 10;
+        PerulanganDo++;
+    } while (n < 7);
+    cout << "Jumlah Perulangan = " << perulanganWhile << endl;
+    cout << "Nilai n terakhir = " << n << endl;
 }
-
-
-
-
-    
-  
-
-    
