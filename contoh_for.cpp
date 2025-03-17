@@ -3,7 +3,13 @@
 #include <cstdlib>
 using namespace std;
 
-int main(){
+int main()
+{
+    int n:
+    int perulanganWhile = 0;
+    int perulaganDo = 0;
+
+
 
 
 }
